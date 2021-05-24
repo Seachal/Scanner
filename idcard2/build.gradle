@@ -22,4 +22,4 @@ dependencies {
 }
 
 //发布 Jcenter
-apply from: 'bintray.gradle'
+// apply from: 'bintray.gradle''

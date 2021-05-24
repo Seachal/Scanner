@@ -22,16 +22,16 @@ android {
         }
     }
 
-    externalNativeBuild {
-        cmake {
-            path "CMakeLists.txt"
-        }
-    }
+//    externalNativeBuild {
+//        cmake {
+//            path "CMakeLists.txt"
+//        }
+//    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
 
-//发布 Jcenter
-apply from: 'bintray.gradle'
+//发布 Jcenter,
+//// apply from: 'bintray.gradle''

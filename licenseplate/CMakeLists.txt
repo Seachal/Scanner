@@ -9,7 +9,7 @@ aux_source_directory(src/main/jni/src SOURCE_FILES_CORE)
 list(APPEND SOURCE_FILES ${SOURCE_FILES_CORE})
 
 # 修改为自己的opencv-android-sdk的JNI路径
-set(OpenCV_DIR /Users/seachal/Documents/SeachalGit/Android/OpenCV-android-sdk/sdk/native/jni)
+set(OpenCV_DIR /Users/seachal/Documents/SeachalGit/Android/OpenCV-android-sdk-452/sdk/native/jni)
 find_package(OpenCV REQUIRED)
 
 add_library( # Sets the name of the library. 将资源文件生成动态链接库（so文件）的库名称(文件名称：“lib" +设置的名称)
